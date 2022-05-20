@@ -18,6 +18,11 @@ public class cssSelector {
 		driver.findElement(By.cssSelector("input[id='txtUsername']")).sendKeys("admin");
 		driver.findElement(By.cssSelector("input[id='txtPassword']")).sendKeys("admin123");
 		driver.findElement(By.cssSelector("input[class='button']")).click();
+		
+		driver.close();
+	 	driver.quit();
+		System.out.println("successfully done");
+			
 	}
 
 }
