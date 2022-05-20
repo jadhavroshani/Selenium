@@ -27,10 +27,9 @@ public class id {
 		driver.findElement(By.id("searchSystemUser_userName")).click();
 		driver.findElement(By.id("searchSystemUser_userName")).sendKeys("admin");
 		
-	
-		
-		
-		
+		driver.close();
+	 	driver.quit();
+		System.out.println("successfully done");
 		
 		
 		
