@@ -27,10 +27,9 @@ public class partialLinkText {
 		
 		
 		driver.findElement(By.partialLinkText("Admin")).click();	
-		
-		
-
-		
+		driver.close();
+	 	driver.quit();
+		System.out.println("successfully done");	
 		
 	
 	}
