@@ -30,7 +30,9 @@ public class linktext
 		
 		driver.findElement(By.linkText("Corporate Branding")).click();
 		
-
+		driver.close();
+	 	driver.quit();
+		System.out.println("successfully done");
 		//Corporate Branding
 		
 		
