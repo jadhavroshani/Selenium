@@ -24,8 +24,9 @@ public class name
 		driver.findElement(By.name("Submit")).click();
 		driver.findElement(By.name("Submit")).click();
 	
-
-		
+		driver.close();
+	 	driver.quit();
+		System.out.println("successfully done");		
 		
 	
 	}
