@@ -20,5 +20,9 @@ public class xpath_Relative {
 		driver.findElement(By.xpath("//*[@id=\"txtPassword\"]")).sendKeys("admin123");
 		
 		driver.findElement(By.xpath("//*[@id=\"btnLogin\"]")).click();
+		
+		driver.close();
+	 	driver.quit();
+		System.out.println("successfully done");
 	}
 }
