@@ -84,7 +84,6 @@ public class eCommerceWebsite
 
 		/*********************************  Select colour.*************************************/
 
-
 		driver.findElement(By.id("color_14")).click();
 		System.out.println("color is selected");
 
@@ -102,8 +101,6 @@ public class eCommerceWebsite
 		 driver.close();		    
 		 driver.quit();
 		 System.out.println("successfully done");
-
-
 
 
 	}
